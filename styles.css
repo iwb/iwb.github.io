@@ -103,7 +103,7 @@ p a {
 }
 
 /* Project Cards */
-.research-topic {
+.research-field {
   background: #f9f9f9;
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -115,29 +115,29 @@ p a {
   text-align: center;
 }
 
-.research-topic:hover {
+.research-field:hover {
   transform: translateY(-5px); /* Hover effect */
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
 }
 
-.research-topic a {
+.research-field a {
   text-decoration: none; /* Remove underline from links */
   color: inherit; /* Inherit text color for consistent appearance */
   display: block; /* Make the entire card clickable */
 }
 
-.research-topic a:hover {
+.research-field a:hover {
   text-decoration: none; /* Prevent underline on hover */
 }
 
 
-.research-topic h3 {
+.research-field h3 {
   font-size: 1.5em;
   color: #072140;
   margin: 0 0 10px;
 }
 
-.research-topic p {
+.research-field p {
   font-size: 1em;
   color: #666;
   margin: 0;
