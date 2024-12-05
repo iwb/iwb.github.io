@@ -45,7 +45,7 @@ body {
 }
 
 .header .cta-button:hover {
-  background-color: #8a144b; /* New background on hover */
+  background-color: #FFC107; /* New background on hover */
   color: #072140; /* Text color on hover */
 }
 
@@ -178,45 +178,110 @@ section p {
   max-width: 1200px; /* Optional: Limit the grid width */
 }
 
-/* Individual Project Card */
+
+/* Image Wrapper */
+.image-wrapper {
+  display: flex; /* Enables flexbox for centering */
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  padding: 10px; /* Add padding around the image */
+  background-color: #f4f4f4; /* Optional: Background for the wrapper */
+  width: 100%; /* Full width of the card */
+  height: 200px; /* Fixed height for the image area */
+  box-sizing: border-box; /* Ensures padding is included in the height */
+}
+
+/* Card Image Styling */
+.card-image {
+  display: block;
+  max-width: 100%; /* Ensures the image scales down */
+  max-height: 100%; /* Ensures the image doesn't overflow the wrapper */
+  object-fit: contain; /* Crop image proportionally */
+}
+
+/* SVG Placeholder Icon */
+.placeholder-icon {
+  width: 100%; /* Fills the container */
+  height: 100%; /* Matches the container's height */
+}
+
+/* Project Card */
 .project-card {
   background: #ffffff; /* White background */
   border: 1px solid #ddd; /* Subtle border */
   border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   overflow: hidden; /* Ensures content stays within the card */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   display: flex;
   flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover Effect for Cards */
 .project-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
 }
 
-/* Project Image */
-.project-card img {
-  width: 100%; /* Make the image cover the card width */
-  height: 150px; /* Fixed height for uniformity */
-  object-fit: cover; /* Crop images proportionally */
+.project-card a {
+  display: block; /* Makes the entire card clickable */
+  text-decoration: none; /* Removes underline from links */
+  color: inherit; /* Inherit text color from parent styles */
 }
 
-/* Project Content */
+/* Project Card - Content Section */
 .project-content {
   padding: 15px; /* Padding inside the card */
 }
 
-.project-content h3 {
+/* Headline Consistency */
+.project-title {
   font-size: 1.2em;
-  color: #072140; /* Dark blue for titles */
-  margin-bottom: 10px;
+  font-weight: bold;
+  color: #072140;
+  margin: 10px 0;
+  min-height: 3em; /* Ensures consistent height across cards */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-.project-content p {
+/* DOI Styling */
+.doi {
   font-size: 0.9em;
-  color: #555; /* Subtle gray for text */
+  color: #333;
   margin: 5px 0;
 }
 
+.doi a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.1s ease, text-decoration 0.1 ease; /* Smooth hover effect */
+}
+
+.doi a:hover {
+  color: #FFC107; /* Highlight DOI link on hover */
+}
+
+/* Keywords Styling */
+.keywords {
+  margin: 10px 0;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.keyword {
+  background-color: #f4f4f4;
+  color: #072140;
+  padding: 2px 8px;
+  margin: 2px;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+/* Year Styling */
+.year {
+  font-size: 0.8em;
+  color: #888;
+  margin-top: 10px;
+}
