@@ -168,6 +168,15 @@ section p {
   font-size: 1.2em;
 }
 
+/* Description Styling */
+.description {
+  font-style: italic; /* Makes the text italicized */
+  font-size: 0.95em; /* Slightly smaller than the main text */
+  color: #555; /* A muted gray for subtlety */
+  margin-top: 5px; /* Adds space between the heading and description */
+  text-align: center; /* Centers the text for consistency */
+}
+
 /* Grid Layout for Projects */
 .projects-grid {
   display: grid;
