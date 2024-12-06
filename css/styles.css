@@ -76,10 +76,18 @@ p a {
 }
 
 /* Divider Between Sections */
+
+
+
+
 .divider {
   height: 20px;
   background-color: #f4f4f4; /* Light neutral to separate sections */
   box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blue-divider {
+  background-color: #072140; /* Blue for the bottom divider */
 }
 
 /* Project Overview Section */
@@ -293,4 +301,26 @@ section p {
   font-size: 0.8em;
   color: #888;
   margin-top: 10px;
+}
+
+/* Social Media Section */
+.social-area {
+  background-color: #072140; /* Dark blue background */
+  padding: 10px 0; /* Add generous padding for a distinct section */
+  text-align: center; /* Centers the content */
+}
+
+/* Social Media Links */
+.social-links a {
+  display: inline-block;
+  margin: 0 15px; /* Space between icons */
+  color: #ddd; /* Default gray color for icons */
+  font-size: 2em; /* Larger icon size for visibility */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect */
+.social-links a:hover {
+  color: #FFC107; /* Amber color on hover */
+  transform: scale(1.2); /* Slightly enlarge the icon on hover */
 }
