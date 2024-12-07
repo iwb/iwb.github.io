@@ -65,15 +65,10 @@ a {
 
 /* Hover Effect */
 a:hover {
-  color: #0056b3; /* A slightly lighter or complementary shade */
-  text-decoration: underline; /* Reintroduce underline on hover for emphasis */
+  color: #FFC107; /* Amber color on hover */
 }
 
-/* Optional: Inline Link Styling Specific to Paragraph */
-p a {
-  padding: 2px 5px; /* Add slight padding around the link */
-  border-radius: 3px; /* Rounded corners for a soft touch */
-}
+
 
 /* Divider Between Sections */
 
