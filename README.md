@@ -3,7 +3,7 @@
 
 Please utilize the following two links:
 
-- **[Visit our other repositories](https://iwb.github.io)**  
+- **[Visit our repositories](https://iwb.github.io)**  
 Explore more tools and resources from our research institute.
 
 - **[Visit our institute for more information](https://www.mec.ed.tum.de/en/iwb/homepage/)**  
