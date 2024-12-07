@@ -10,4 +10,4 @@ Explore more tools and resources from our research institute.
 Learn more about our research and ongoing projects.
 
 ## Contact 
-If you have any questions about the repositories, please contact the author of the respective work.
+If you have any questions about a repository, please contact the author of the respective work.
