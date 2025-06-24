@@ -40,7 +40,6 @@ body {
   font-size: 1em;
   text-decoration: none;
   border-radius: 5px;
-  font-weight: bold;
   transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
 }
 
