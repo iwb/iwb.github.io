@@ -299,6 +299,18 @@ section p {
   margin-top: 10px;
 }
 
+/* Status Badge (In Preparation) */
+.status-badge {
+  display: inline-block;
+  background-color: #FFC107;
+  color: #072140;
+  padding: 3px 10px;
+  font-size: 0.75em;
+  font-weight: bold;
+  border-radius: 12px;
+  margin-bottom: 5px;
+}
+
 /* Social Media Section */
 .social-area {
   background-color: #072140; /* Dark blue background */
