@@ -239,6 +239,7 @@ section p {
   display: block; /* Makes the entire card clickable */
   text-decoration: none; /* Removes underline from links */
   color: inherit; /* Inherit text color from parent styles */
+  font-weight: normal; /* Override global bold anchor style */
 }
 
 /* Project Card - Content Section */
